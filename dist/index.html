@@ -13,7 +13,8 @@
       -moz-box-sizing: border-box;
       box-sizing: border-box;
     }
-     /*在根元素html声明全局CSS变量*/
+
+    /*在根元素html声明全局CSS变量*/
     :root {
       --button-height: 32px;
       --font-size: 14px;
@@ -24,19 +25,33 @@
       --border-color: #999;
       --border-color-hover: #666;
     }
+
     #app {
       margin: 20px;
     }
+
     body {
       font-size: var(--font-size);
     }</style>
-
+  <style>.icon {
+      width: 1em;
+      height: 1em;
+    }</style>
 <link rel="stylesheet" href="/App.f684dadd.css"></head>
 <body>
 <div id="app">
-  <g-button></g-button>
+  <g-button>
+    按钮
+  </g-button>
+  <g-button icon="setting">
+    按钮
+  </g-button>
+  <g-button icon="setting" icon-position="right">
+    按钮
+  </g-button>
 </div>
 
 <script src="/App.f684dadd.js"></script>
+<script src="//at.alicdn.com/t/font_1922912_rldos69jorg.js"></script>
 </body>
 </html>
