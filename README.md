@@ -1,2 +1,2 @@
-## grape-UI 
-### 一套基于Vue开发的组件库
+## grape-UI
+### 一个基于Vue的UI组件库
